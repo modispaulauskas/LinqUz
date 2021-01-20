@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace LinqUz.Models
 {
-    public class Hobby
+    public class Profession
     {
         public string Text { get; set; }
     }
-    
 }

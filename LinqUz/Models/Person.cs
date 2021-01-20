@@ -8,17 +8,17 @@ namespace LinqUz.Models
 {
     public class Person
     {
-        public string firstname { get; set; }
-        public string lastName { get; set; }
-        public string email { get; set; }
-        public DateTime? birthday { get; set; }
-        public string biology { get; set; }
-        public int? age
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public DateTime? Birthday { get; set; }
+        public string Biology { get; set; }
+        public int? Age
         {
             get
             {
-                if(birthday == null) return null;
-                var timeSpan = DateTime.Now.Subtract((DateTime)birthday);
+                if(Birthday == null) return null;
+                var timeSpan = DateTime.Now.Subtract((DateTime)Birthday);
                 return new DateTime(timeSpan.Ticks).Year - 1;
             }
         }
