@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace LinqUz.Data
 {
-    public class HobbyData
+    public static class HobbyData
     {
-        public List<Hobby> DataSeed => new List<Hobby>
+        public static List<Hobby> DataSeed => new List<Hobby>
         {
             new Hobby{Text = "Astrology"},
             new Hobby{Text = "Art"},

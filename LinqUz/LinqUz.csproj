@@ -48,6 +48,7 @@
     <Compile Include="Data\ProfessionData.cs" />
     <Compile Include="Models\Hobby.cs" />
     <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\PersonViewModel.cs" />
     <Compile Include="Models\Profession.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace LinqUz.Data
 {
-    class ProfessionData
+    public static class ProfessionData
     {
-        public List<Profession> DataSeed => new List<Profession>
+        static public List<Profession> DataSeed => new List<Profession>
         {
             new Profession{Text = "Actor"},
             new Profession{Text = "Baker"},

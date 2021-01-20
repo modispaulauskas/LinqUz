@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace LinqUz.Data
 {
-    public class PersonData
+    public static class PersonData
     {
-        public List<Person> DataSeed => new List<Person> 
+        public static List<Person> DataSeed => new List<Person> 
         {
             new Person{ FirstName = "Jonas", LastName = "Jonaitis", Birthday = new DateTime(1992, 12, 18)},
             new Person{ FirstName = "Petras", LastName = "Petraitis", Birthday = new DateTime(1996, 10, 19)},
